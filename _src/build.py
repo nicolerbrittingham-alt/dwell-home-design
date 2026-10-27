@@ -151,7 +151,7 @@ page("index.html", "Dwell Home Designs | Residential Interior Design in Fort Wor
       <span class="eyebrow">Hi, I'm Nicole</span>
       <h2>Beautiful design for real life</h2>
       <p>Since 2022, I've helped families turn tired, unfinished or overwhelming spaces into homes they love walking into. Whether it's one room, a full remodel or your whole house, I handle the details so you can enjoy the result.</p>
-      <p>Based on the west side of Fort Worth, I serve Tarrant County, Parker County and the greater Dallas&ndash;Fort Worth area, with virtual design available anywhere.</p>
+      <p>Based in Fort Worth, I serve Tarrant County, Parker County and the west side of the Dallas&ndash;Fort Worth area, with virtual design available anywhere.</p>
       <p style="margin-top:28px"><a class="btn ghost" href="about.html">My Story</a></p>
     </div>
   </div>
