@@ -1,4 +1,4 @@
-"""Builds the Dwell Home Design static site. Run: python3 _src/build.py (from the repo root)."""
+"""Builds the Dwell Home Designs static site. Run: python3 _src/build.py (from the repo root)."""
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -36,7 +36,7 @@ def page(fname, title, desc, body):
 <body>
 <header>
   <div class="wrap nav">
-    <a class="logo" href="index.html">Dwell<small>Home Design</small></a>
+    <a class="logo" href="index.html">Dwell<small>Home Designs</small></a>
     <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
     <ul>{links}<li><a class="btn" href="contact.html">Book a Consultation</a></li></ul>
   </div>
@@ -48,7 +48,7 @@ def page(fname, title, desc, body):
   <div class="wrap">
     <div class="foot">
       <div>
-        <a class="logo" href="index.html">Dwell<small>Home Design</small></a>
+        <a class="logo" href="index.html">Dwell<small>Home Designs</small></a>
         <p style="margin-top:18px;max-width:340px">Residential interior design for everyday families, from one room to the whole home. Based on the west side of Fort Worth, Texas.</p>
       </div>
       <div>
@@ -65,7 +65,7 @@ def page(fname, title, desc, body):
       </div>
     </div>
     <div class="copy">
-      <span>&copy; <span class="year">2026</span> Dwell Home Design. All rights reserved.</span>
+      <span>&copy; <span class="year">2026</span> Dwell Home Designs. All rights reserved.</span>
       <span>Proud founder of <a href="https://dwellinyourneighborhood.com" target="_blank" rel="noopener">Dwell In Your Neighborhood</a>, restoring veterans' homes.</span>
     </div>
   </div>
@@ -129,13 +129,13 @@ def figs(items):
 
 # ---------------- HOME ----------------
 featured = [p for p in PHOTOS if p[0] in ("navy-family-room", "blue-grid-bedroom", "sage-bathroom", "white-kitchen")]
-page("index.html", "Dwell Home Design | Residential Interior Design in Fort Worth, TX",
+page("index.html", "Dwell Home Designs | Residential Interior Design in Fort Worth, TX",
      "Residential interior design for everyday families in west Fort Worth, Aledo, Weatherford and across Tarrant and Parker counties. Design boards, furniture sourcing and styling. Book a free consultation.",
      f"""
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <span class="eyebrow">Dwell Home Design &middot; Fort Worth, TX</span>
+      <span class="eyebrow">Dwell Home Designs &middot; Fort Worth, TX</span>
       <h1>Homes that feel like you</h1>
       <p class="lead">Residential interior design for everyday families, from one room to the whole home.</p>
       <div class="btn-row"><a class="btn" href="contact.html">Book a Consultation</a><a class="btn ghost" href="portfolio.html">See My Work</a></div>
@@ -190,7 +190,7 @@ page("index.html", "Dwell Home Design | Residential Interior Design in Fort Wort
 {CTA}""")
 
 # ---------------- SERVICES ----------------
-page("services.html", "Services & Pricing | Dwell Home Design, Fort Worth",
+page("services.html", "Services & Pricing | Dwell Home Designs, Fort Worth",
      "Residential interior design services for families in Fort Worth: whole-home design, room design packages, statement walls, remodel design and virtual design. Family-friendly pricing.",
      f"""
 <section class="page-head">
@@ -275,8 +275,8 @@ page("services.html", "Services & Pricing | Dwell Home Design, Fort Worth",
 {CTA}""")
 
 # ---------------- PROCESS ----------------
-page("process.html", "How It Works | Dwell Home Design",
-     "From a free 30-minute discovery call to design boards, ordering and styling day: here's what working with Dwell Home Design looks like.",
+page("process.html", "How It Works | Dwell Home Designs",
+     "From a free 30-minute discovery call to design boards, ordering and styling day: here's what working with Dwell Home Designs looks like.",
      f"""
 <section class="page-head">
   <div class="wrap split">
@@ -302,8 +302,8 @@ page("process.html", "How It Works | Dwell Home Design",
 {CTA}""")
 
 # ---------------- PORTFOLIO ----------------
-page("portfolio.html", "Portfolio | Dwell Home Design, Fort Worth Interior Design",
-     "Living rooms, bedrooms, kitchens, baths and statement walls designed by Nicole Brittingham of Dwell Home Design in Fort Worth, Texas.",
+page("portfolio.html", "Portfolio | Dwell Home Designs, Fort Worth Interior Design",
+     "Living rooms, bedrooms, kitchens, baths and statement walls designed by Nicole Brittingham of Dwell Home Designs in Fort Worth, Texas.",
      f"""
 <section class="page-head center">
   <div class="wrap">
@@ -325,15 +325,15 @@ page("portfolio.html", "Portfolio | Dwell Home Design, Fort Worth Interior Desig
 {CTA}""")
 
 # ---------------- ABOUT ----------------
-page("about.html", "About Nicole | Dwell Home Design",
-     "Meet Nicole Brittingham, founder of Dwell Home Design in Fort Worth and of Dwell In Your Neighborhood, a nonprofit restoring veterans' homes.",
+page("about.html", "About Nicole | Dwell Home Designs",
+     "Meet Nicole Brittingham, founder of Dwell Home Designs in Fort Worth and of Dwell In Your Neighborhood, a nonprofit restoring veterans' homes.",
      f"""
 <section class="page-head">
   <div class="wrap split">
     <div>
       <span class="eyebrow">About</span>
       <h1>Hi, I'm Nicole</h1>
-      <p class="lead" style="margin-top:20px">I started Dwell Home Design in January 2022 with a simple belief: your home should be a peaceful, beautiful place you love walking into.</p>
+      <p class="lead" style="margin-top:20px">I started Dwell Home Designs in January 2022 with a simple belief: your home should be a peaceful, beautiful place you love walking into.</p>
       <p style="margin-top:20px">I design for real life. That means rooms that work for busy families, finishes that hold up, and spaces that still feel personal. I handle the boards, the shopping, the deliveries and the styling, so you get to enjoy the fun part.</p>
       <p>And I'm not afraid to pick up a paintbrush or a hammer. Every project is a whole-home, whole-heart effort, and I'm flexible about meeting your family where you are.</p>
       <p style="margin-top:28px"><a class="btn" href="contact.html">Work With Me</a></p>
@@ -357,7 +357,7 @@ page("about.html", "About Nicole | Dwell Home Design",
 
 # ---------------- CONTACT ----------------
 CHECKS = ["Whole-home design", "Room design", "Remodel design", "Virtual design", "Statement wall", "Staging", "Not sure yet"]
-page("contact.html", "Contact | Book a Free Consultation | Dwell Home Design",
+page("contact.html", "Contact | Book a Free Consultation | Dwell Home Designs",
      "Tell Nicole about your home and book a free 30-minute discovery call. Serving west Fort Worth, Aledo, Weatherford and the DFW area.",
      f"""
 <section class="page-head">
@@ -401,7 +401,7 @@ page("contact.html", "Contact | Book a Free Consultation | Dwell Home Design",
 </section>""")
 
 # ---------------- THANK YOU ----------------
-page("thank-you.html", "Thank You | Dwell Home Design", "Thanks for reaching out to Dwell Home Design.", f"""
+page("thank-you.html", "Thank You | Dwell Home Designs", "Thanks for reaching out to Dwell Home Designs.", f"""
 <section class="page-head center" style="padding:120px 0">
   <div class="wrap">
     <span class="eyebrow">Message sent</span>

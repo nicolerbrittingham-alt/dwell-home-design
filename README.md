@@ -1,4 +1,4 @@
-# Dwell Home Design website
+# Dwell Home Designs website
 
 Static site for https://dwellhomedesigns.com, hosted on GitHub Pages.
 
