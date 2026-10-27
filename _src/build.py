@@ -5,7 +5,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SITE = "https://dwellhomedesigns.com"
 EMAIL = "nicole.r.brittingham@gmail.com"
 IG = "https://www.instagram.com/dwell.home.designs/"
-AREA = "west Fort Worth, Benbrook, Aledo, Willow Park, Hudson Oaks, Weatherford and the greater DFW area"
+AREA = "Fort Worth, Benbrook, Aledo, Willow Park, Hudson Oaks, Weatherford and the west side of the DFW area"
 
 NAV = [("index.html", "Home"), ("services.html", "Services"), ("process.html", "Process"),
        ("portfolio.html", "Portfolio"), ("about.html", "About")]
